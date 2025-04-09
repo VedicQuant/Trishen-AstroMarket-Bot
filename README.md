@@ -1,5 +1,3 @@
-# Save the updated README content with badges to a file
-readme_content = """
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![License](https://img.shields.io/github/license/VedicQuant/Trishen-AstroMarket-Bot)
 ![Repo Size](https://img.shields.io/github/repo-size/VedicQuant/Trishen-AstroMarket-Bot)
@@ -8,14 +6,11 @@ readme_content = """
 ![Issues](https://img.shields.io/github/issues/VedicQuant/Trishen-AstroMarket-Bot)
 ![Forks](https://img.shields.io/github/forks/VedicQuant/Trishen-AstroMarket-Bot?style=social)
 
-# 🕉️ Trishen – The Astro-Market Intelligence Engine
-### ⚙️ Powered by **Brahma – Origin & Creator**
+# 🕉️ Trishen – The Astro-Market Intelligence Engine  
+### ⚙️ Powered by **Brahma – Origin & Creator**  
 **By Siddu x Buddi Systems** 🌌
 
-![Trishen Logo](./assets/logo_trishen.png)
-
-> *"Decode the universe. Predict the market. Empower your destiny."*  
-> – Powered by Vedic Astrology, AI & Financial Signals
+> *"Trade with your stars. Time with your soul. Powered by Trishen."*
 
 ---
 
@@ -23,13 +18,17 @@ readme_content = """
 
 | 🪐 Vedic Astrology Engine | 📌 Features |
 |--------------------------|-------------|
-| Vimshottari Dasha        | Life phase predictions |
-| Nakshatra-Based Insights | Daily strategy by Moon |
-| Bhava Strengths          | House-based forecasting |
-| Divisional Charts (D9, D10, etc.) | Career, Marriage, Spirituality layers |
-| KP + Nadi Integration    | Pinpoint prediction |
-| Panchang, Rahu Kaal, Tithi | Daily timings & yogas |
-| Yogas & Dosha Detection  | Identify key planetary strengths/weaknesses |
+| Vimshottari Dasha Viewer (`/dasha`) | Life phase predictions |
+| Nakshatra-Based Forecast (`/today`) | Daily strategy by Moon |
+| Bhava Strengths & Yogas | In-depth decoding |
+| Divisional Charts (D9, D10…) | Career, Spirituality |
+| Panchang Timings | Rahu Kaal, Tithi, Yoga |
+| KP & Nadi Integration | Precision timing |
+| Numerology Analyzer | Name + DOB tuning |
+| Birth Chart Heatmap | Graha visualization |
+| Mantra & Yantra Generator | Based on Dasha & Grahas |
+| Karma Score Indicator | 0-100 alignment index |
+| Trishen AI Chat Advisor | Ask spiritual/market questions anytime |
 
 ---
 
@@ -37,53 +36,28 @@ readme_content = """
 
 | 📊 Market Signal Layer   | 🌐 Assets Covered |
 |--------------------------|------------------|
-| AI + Astro-based Trading Strategy | BTC, ETH, Nifty, Gold, Crude Oil |
-| Planet-Driven Volatility Alerts   | Moon–Rahu FOMO, Mars–Saturn fear |
-| Multi-Timeframe Support | 15m, 1h, Daily signals |
-| Daily Telegram Forecasts | Auto messages at 12AM IST |
-| Option Strategy Tips     | Based on lunar placement |
-| Live Price API Integration | Finnhub, Yahoo, Custom APIs |
+| AI + Astro Strategy      | BTC, ETH, Nifty, Gold |
+| Multi-Timeframe Signal   | 15m, 1h, Daily |
+| Option Strategy Mapper   | Based on Moon energy |
+| Live Price API           | Finnhub, Yahoo |
+| Market Mood Decoder      | Based on Graha |
+| Strategy Performance     | Backtested |
 
 ---
 
-## 🧾 Reporting + Dashboard
+## 🧾 Reports & Dashboards
 
-| 🎨 PDF & UI Tools         | 📍 Highlights |
-|--------------------------|--------------|
-| Full-color Astro PDF     | Chart, Dasha, Yogas, Remedies |
-| Birth Chart Heatmap      | Visual strength zones |
-| Astro-Market Streamlit UI | Web input, chart, and report |
-| Backtest Report PDF      | Astro-strategy results |
-
----
-
-## 🧘 Remedies, Mantras, Numerology
-
-| 🧿 Mystical Additions      | 🌟 Description |
-|---------------------------|----------------|
-| Daily Astro Meditation    | Based on Moon Nakshatra |
-| Mantra & Yantra Suggestion| Personalized by Grahas |
-| Numerology Analyzer       | Name + DOB tuning |
-| Yearly & Monthly Report   | Life + Market calendar |
+| 📂 Tools           | 📍 Insights |
+|-------------------|------------|
+| Astro-Market PDF  | Full birth + market forecast |
+| Streamlit UI      | Input + chart preview |
+| Backtesting PDF   | Astro strategy results |
 
 ---
 
-## 🧠 Built With Love by:
-
-> **Siddu x Buddi Systems**  
-> Visionary duo bringing AI & Astrology together  
-> 🚀 [GitHub](https://github.com/AstroTradingBot) | [Telegram](https://t.me/BrahmaAstroBot) | [Streamlit](https://trishen.streamlit.app)
-
----
-
-## ⚙️ Setup & Deployment
+## ⚙️ Setup
 
 ```bash
-# Clone the Repo
 git clone https://github.com/VedicQuant/Trishen-AstroMarket-Bot
-
-# Install Requirements
 pip install -r requirements.txt
-
-# Run the Bot (local or cloud)
 python trishen_bot.py
